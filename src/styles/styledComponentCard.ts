@@ -40,7 +40,7 @@ export const DivCart = styled.div<{ disabled: boolean }>((props) => ({
   color: props.disabled ? 'gray' : 'inherit',
 
   '&:hover': {
-    color: props.disabled ? 'gray' : 'red',
+    color: props.disabled ? 'yellow' : 'pink',
     cursor: props.disabled ? 'not-allowed' : 'pointer',
   }
 }))
